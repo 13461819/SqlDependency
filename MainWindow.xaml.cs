@@ -75,6 +75,8 @@ namespace SqlDependencyTest
             sqlDependency.OnChange -= new OnChangeEventHandler(Dependency_OnChange);*/
         }
 
+        //https://stackoverflow.com/questions/9430896/sqldependency-onchange-event-fires-only-one-single-time 이거 참조
+
         private void GetData()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
