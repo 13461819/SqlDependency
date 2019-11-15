@@ -1,0 +1,17 @@
+Z:\VS2015\Miscellaneous\SqlDependencyTest\bin\Debug\SqlDependencyTest.exe.config
+Z:\VS2015\Miscellaneous\SqlDependencyTest\bin\Debug\SqlDependencyTest.exe
+Z:\VS2015\Miscellaneous\SqlDependencyTest\bin\Debug\SqlDependencyTest.pdb
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest.csprojResolveAssemblyReference.cache
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\MainWindow.g.cs
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\App.g.cs
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest_MarkupCompile.cache
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest_MarkupCompile.lref
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\MainWindow.baml
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest.g.resources
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest.Properties.Resources.resources
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest.csproj.GenerateResource.Cache
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest.exe
+Z:\VS2015\Miscellaneous\SqlDependencyTest\obj\Debug\SqlDependencyTest.pdb
+Z:\Local git\SqlDependency\bin\Debug\SqlDependencyTest.exe.config
+Z:\Local git\SqlDependency\obj\Debug\SqlDependencyTest.exe
+Z:\Local git\SqlDependency\obj\Debug\SqlDependencyTest.pdb
