@@ -79,18 +79,11 @@ namespace SqlDependencyTest
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
+                string query = @"SELECT VINNUM, DRIVINGKEY, SEQNO FROM dbo.TP_DRIVINGINFO WITH (NOLOCK)
+                                WHERE VINNUM = 'KMHJ3812WKU970466' AND DRIVINGKEY = '20190928222719'";
                 connection.Open();
-                SqlCommand command = new SqlCommand("UP_POSITIONCYCLEREPORTING_SELECT_POSITIONCYCLEREPORTING_VIEW_REALTIME", connection);
-                command.CommandType = CommandType.StoredProcedure;
-
-                SqlParameter vinnumParam = new SqlParameter("@VINNUM", SqlDbType.VarChar, 34);
-                vinnumParam.Value = "KMHJ3812WKU970466";
-                command.Parameters.Add(vinnumParam);
-
-                SqlParameter drivingKeyParam = new SqlParameter("@DRIVINGKEY", SqlDbType.VarChar, 50);
-                drivingKeyParam.Value = "20190928222719";
-                command.Parameters.Add(drivingKeyParam);
-
+                SqlCommand command = new SqlCommand(query, connection);
+                
                 dependency = new SqlDependency(command);
                 dependency.OnChange += (sender, e) => Dependency_OnChange(sender, e, "KMHJ3812WKU970466", "20190928222719");
                 //dependency.OnChange += (sender, e) => Dependency_OnChange(sender, e);
